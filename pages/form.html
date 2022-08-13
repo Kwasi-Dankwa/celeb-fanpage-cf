@@ -1,0 +1,85 @@
+<!--NewsPage-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>NewsPage</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="./pages/form.html">News</a></li>
+            <li><a href="./pages/latest.html">Latest</a></li>
+            <li><a href="./pages/gallery.html">Xo Gallery</a></li>
+        </ul>
+    </nav>
+
+
+    <header>
+        <h1>Join the XoVerse</h1>
+    </header>
+    <form action="/form-handlig-url" method="post">
+        <fieldset>
+            <legend>Gateway to the XoVerse</legend>
+
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName">
+            </div>
+
+            <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName">
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="emaol" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="membership">Membership</label>
+                <select id="membership" name="user_mem_name">
+                    <option value="gold">Gold</option>
+                    <option value="diamond">Diamond</option>
+                    <option value="platinum">Platinum</option>
+                </select>
+            </div>
+            <!--Radio Buttons-->
+            <div>
+                <p>Choose billing option</p>
+                <input type="radio" id="1 month/$19.99" name="bill_option" value="1 month/$19.99">
+                <label for="1 month/$9.99">1 month/$19.99</label><br>
+                <input type="radio" id="6 months/$69.99" name="bill_option" value="6 months/$69.99">
+                <label for="css">6 months/$69.99</label><br>
+                <input type="radio" id="12 months/$109.99" name="bill_option" value="12 months/$109.99">
+                <label for="12 months/$109.99">12 months/$109.99</label>
+            </div>
+
+            <!--Comments-->
+            <div>
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+
+            <!--SignUp-->
+            <input type="checkbox" id="signup" name="signup" value="SignUp">
+            <label for="signup"> Sign up for newsletter</label><br>
+            <input type="checkbox" id="T&C" name="T&C" value="T&C">
+            <label for="T&C">Agree to terms and conditions</label><br>
+
+            <!--Submit button-->
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
