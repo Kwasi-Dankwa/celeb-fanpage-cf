@@ -1,19 +1,68 @@
+/* Universal Selectors */
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #04471c;
+    position: relative;
+    margin: 0;
+}
+
+p{
+    font-style: italic;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
-};
+}
 
 li {
-    float: left;
-};
+    display: inline;
+}
 
-li a {
-    display: block;
-    color: white;
+a {
+    color: gold;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 18px;
     text-decoration: none;
-};
+    font-size: 17px;
+}
+
+/* Class Selectors */
+.topnav {
+    background-color: black;
+    overflow: hidden;  
+    padding: 20px;
+}
+
+.links{
+    display: flex;
+    float: right;
+}
+
+.mission{
+    margin: 20px;
+}
+
+.album{
+    text-align: center;
+}
+
+.topimage{}
+
+
+/* Center Image */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
