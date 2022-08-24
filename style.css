@@ -56,7 +56,9 @@ a {
     text-align: center;
 }
 
-.topimage{}
+.logo{
+    margin-right: 250px
+}
 
 
 /* Center Image */
