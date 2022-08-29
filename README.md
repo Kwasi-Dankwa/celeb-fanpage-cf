@@ -39,3 +39,7 @@ Navigation Bar linking to all 4 pages
 A label for each image
 Clicking on the image opens the source of that image in a new window
 ```
+
+## Plans
+
+My goal for this webpage in future is to make it responsive through React. This project is going to be deployed on Netlifiy
