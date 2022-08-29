@@ -12,6 +12,8 @@ h1{
 
 body{
     background-color: #04471c;
+    position: relative;
+    margin: 0;
 }
 
 p{

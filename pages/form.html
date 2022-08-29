@@ -4,19 +4,24 @@
 
 <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../form.css" />
     <title>NewsPage</title>
 </head>
 
 <body>
     <!--Navbar-->
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
+    <ul class="topnav">
+        <div class="links">
+            <div class="logo">
+                <img src="./images/xo.jpg" alt="xo image" height="30px" width="40px" />
+            </div>
+            <li><a class="active" href="index.html">Home</a></li>
             <li><a href="./pages/form.html">News</a></li>
             <li><a href="./pages/latest.html">Latest</a></li>
             <li><a href="./pages/gallery.html">Xo Gallery</a></li>
-        </ul>
-    </nav>
+            <div>
+
+    </ul>
 
 
     <header>
@@ -26,22 +31,22 @@
         <fieldset>
             <legend>Gateway to the XoVerse</legend>
 
-            <div>
+            <div class="firstName">
                 <label for="firstName">First Name</label>
                 <input type="text" name="firstName" id="firstName">
             </div>
 
-            <div>
+            <div class="lastName">
                 <label for="lastName">Last Name</label>
                 <input type="text" name="lastName" id="lastName">
             </div>
 
-            <div>
+            <div class="email">
                 <label for="email">Email</label>
                 <input type="emaol" name="email" id="email">
             </div>
 
-            <div>
+            <div class="membership">
                 <label for="membership">Membership</label>
                 <select id="membership" name="user_mem_name">
                     <option value="gold">Gold</option>
@@ -50,7 +55,7 @@
                 </select>
             </div>
             <!--Radio Buttons-->
-            <div>
+            <div class="billing">
                 <p>Choose billing option</p>
                 <input type="radio" id="1 month/$19.99" name="bill_option" value="1 month/$19.99">
                 <label for="1 month/$9.99">1 month/$19.99</label><br>
@@ -61,19 +66,20 @@
             </div>
 
             <!--Comments-->
-            <div>
+            <div class="comments">
                 <label for="comments">Comments</label>
                 <textarea id="comments" name="comments"></textarea>
             </div>
 
             <!--SignUp-->
-            <input type="checkbox" id="signup" name="signup" value="SignUp">
-            <label for="signup"> Sign up for newsletter</label><br>
-            <input type="checkbox" id="T&C" name="T&C" value="T&C">
-            <label for="T&C">Agree to terms and conditions</label><br>
-
+            <div class="signup">
+                <input type="checkbox" id="signup" name="signup" value="SignUp">
+                <label for="signup"> Sign up for newsletter</label><br>
+                <input type="checkbox" id="T&C" name="T&C" value="T&C">
+                <label for="T&C">Agree to terms and conditions</label><br>
+            </div>
             <!--Submit button-->
-            <div>
+            <div class="button">
                 <input type="submit" value="Submit">
             </div>
 

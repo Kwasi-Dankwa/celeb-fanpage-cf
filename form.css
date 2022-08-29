@@ -1,0 +1,113 @@
+/* Universal Selectors */
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: gold;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+body {
+    background-color: #04471c;
+    position: relative;
+    margin: 0;
+}
+
+fieldset {
+    margin: 4em;
+    padding: 1em;
+    border: solid 1px gold;
+    border-radius: 6px;
+    min-width: 200px
+}
+
+legend {
+    font-size: 1.25em;
+    padding: 0 .25em;
+    color: gold;
+    text-align: center;
+}
+
+
+/* Class Selectors */
+.topnav {
+    background-color: black;
+    overflow: hidden;  
+    padding: 20px;
+}
+
+.links{
+    display: flex;
+    float: right;
+}
+
+.logo{
+    margin-right: 250px
+}
+
+.firstName{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.lastName{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.email{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.membership{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.billing{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.comments{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.button{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.signup{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
