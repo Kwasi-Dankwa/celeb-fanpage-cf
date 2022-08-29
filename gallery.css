@@ -1,0 +1,60 @@
+/* Universal Selectors */
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #04471c;
+    position: relative;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: gold;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Class Selectors */
+.topnav {
+    background-color: black;
+    overflow: hidden;  
+    padding: 20px;
+}
+
+.links{
+    display: flex;
+    float: right;
+}
+
+.logo{
+    margin-right: 250px
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}

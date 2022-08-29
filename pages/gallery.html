@@ -2,22 +2,28 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <title>Xo Gallery</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../gallery.css">
+        <title>Gallery</title>
+    </head>
 
 <body>
     <!--Navbar-->
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="./pages/form.html">News</a></li>
-            <li><a href="./pages/latest.html">Latest</a></li>
-            <li><a href="./pages/gallery.html">Xo Gallery</a></li>
-        </ul>
-    </nav>
+    <ul class="topnav">
+        <div class="links">
+            <div class="logo">
+                <img src="../images/xo.jpg" alt="xo image" height="30px" width="40px" />
+            </div>
+            <li><a class="active" href="../index.html">Home</a></li>
+            <li><a href="./form.html">News</a></li>
+            <li><a href="./latest.html">Latest</a></li>
+            <li><a href="./gallery.html">Xo Gallery</a></li>
+        <div>
+
+    </ul>
 
     <header>
         <h1>XO Gallery</h1>
@@ -25,24 +31,30 @@
 
     <h2>Pictures from the XoVerse</h2>
 
-    <div class=”gallery”>
-        <figure class=”gallery__item gallery__item--1">
-            <img src="img/image-1.jpg" class="gallery__img" alt="Image 1">
+    <div class="row">
+        <figure class="columnn">
+            <img src="../images/tour.jpg" class="gallery__img" alt="Image 1">
+            <figcaption>The Weeknd at opener</figcaption>
         </figure>
-        <figure class="gallery__item gallery__item--2">
-            <img src="img/image-2.jpg" class="gallery__img" alt="Image 2">
+        <figure class="column">
+            <img src="../images/theweeknd.jpg" height="170px" width="100px" class="gallery__img" alt="Image 2">
+            <figcaption>Philly Show</figcaption>
         </figure>
-        <figure class="gallery__item gallery__item--3">
-            <img src="img/image-3.jpg" class="gallery__img" alt="Image 3">
+        <figure class="column">
+            <img src="../images/AH.jpg" height="100px" width="100px" class="gallery__img" alt="Image 3">
+            <figcaption>After Hours Poster</figcaption>
         </figure>
-        <figure class="gallery__item gallery__item--4">
-            <img src="img/image-4.jpg" class="gallery__img" alt="Image 4">
+        <figure class="column">
+            <img src="../images/hurricane.jpg" height="100px" width="100px" class="gallery__img" alt="Image 4">
+            <figcaption>Hurricane performance</figcaption>
         </figure>
-        <figure class="gallery__item gallery__item--5">
-            <img src="img/image-5.jpg" class="gallery__img" alt="Image 5">
+        <figure class="column">
+            <img src="../images/metlife.jpg" height="100px" width="100px" class="gallery__img" alt="Image 5">
+            <figcaption>The NY show</figcaption>
         </figure>
-        <figure class="gallery__item gallery__item--6">
-            <img src="img/image-6.jpg" class="gallery__img" alt="Image 6">
+        <figure class="column">
+            <img src="../images/ghouls.jpg" height="100px" width="100px" class="gallery__img" alt="Image 6">
+            <figcaption>The ghouls arrive</figcaption>
         </figure>
     </div>
 </body>
